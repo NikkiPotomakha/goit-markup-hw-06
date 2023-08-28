@@ -104,7 +104,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/Dark-bg\ 2px\ app.jpg);
+    url(../images/Dark-bg\ 1px\ app.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -142,6 +142,17 @@ img {
   background-color: #404bbf;
 }
 
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .dark-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg\ 2px\ app.jpg);
+  }
+}
 @media screen and (min-width: 768px) {
   .dark-section {
     max-width: 768px;
@@ -149,7 +160,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/Dark-bg\ 2\ px\ tablet.jpg);
+      url(../images/Dark-bg\ 1px\ tablet.jpg);
   }
 }
 .ttl_one {
@@ -157,6 +168,17 @@ img {
   margin: 0 auto 36px;
   font-size: 56px;
   line-height: 1.07;
+}
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .dark-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg\ 2\ px\ tablet.jpg);
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -167,11 +189,23 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office\ 2px\ desktop.jpg);
+      url(../images/people-office\ 1px\ desktop.jpg);
   }
 }
 .ttl_one {
   margin: 0 auto 48px;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .dark-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office\ 2px\ desktop.jpg);
+  }
 }
 
 /* Second section */
