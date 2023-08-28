@@ -143,16 +143,12 @@
 
 /* Second section */
 
-.text-section {
-  padding: 120px 0;
-}
-
 .text-list {
   display: flex;
   flex-direction: row;
   gap: 24px;
 }
-.text-article .text-icons {
+.text-icons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -168,10 +164,8 @@
   gap: 8px;
 }
 .text {
-  color: var(--slate);
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-style: normal;
+
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
