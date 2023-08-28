@@ -209,3 +209,17 @@ img {
 }
 
 /* Second section */
+
+.text-section {
+  padding: 72px 0;
+}
+.ttl {
+  display: flex;
+  width: 396px;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
