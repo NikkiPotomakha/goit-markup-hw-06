@@ -147,31 +147,12 @@
   padding: 120px 0;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 .text-list {
   display: flex;
   flex-direction: row;
   gap: 24px;
 }
-.text-article {
-  display: flex;
-  width: 264px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-}
-.text-icons {
+.text-article .text-icons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -182,11 +163,8 @@
   margin-bottom: 8px;
 }
 .ttl {
-  display: flex;
   width: 264px;
-  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
   gap: 8px;
 }
 .text {
