@@ -213,12 +213,6 @@ img {
 
 /* Second section */
 
-.container {
-  max-width: 426px;
-  padding: 0 16px;
-  margin: 0 auto;
-}
-
 .text-list {
   display: flex;
   gap: 72px;
