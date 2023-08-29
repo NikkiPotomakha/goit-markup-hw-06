@@ -269,6 +269,7 @@ img {
 }
 .text-list {
   gap: 24px;
+  flex-basis: calc((100% - 24px) / 2);
 }
 .text-icons {
   display: none;
