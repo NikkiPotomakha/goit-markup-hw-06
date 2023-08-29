@@ -187,7 +187,7 @@
 
 /* Third section */
 
-.tech-section {
+/*.tech-section {
   padding-bottom: 120px;
 }
 .tittle {
@@ -206,7 +206,7 @@
 }
 .tech-item {
   flex-basis: calc((100% - 3 * 16px) / 3);
-}
+} */
 
 /* Fourth section */
 
