@@ -780,4 +780,5 @@ img {
 }
 .modal-form-container {
   margin-bottom: 8px;
+  position: relative;
 }
