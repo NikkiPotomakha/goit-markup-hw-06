@@ -834,3 +834,34 @@ img {
   border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.4));
   resize: none;
 }
+.modal-form-textarea::placeholder {
+  color: var(--navyblue-modal, rgba(46, 47, 66, 0.4));
+}
+.modal-form-textarea:focus {
+  border-color: var(--iris);
+}
+.modal-form-privacy {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.checkbox-modal {
+  width: 16px;
+  height: 16px;
+  stroke-width: 1px;
+}
+input[type="checkbox"]:checked + .modal-form-priv .privacy-checkbox {
+  background-color: var(--ocean);
+  border: none;
+  fill: #f4f4fd;
+}
+.modal-form-priv {
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--lightslate, #8e8f99);
+  display: block;
+  gap: 8px;
+  align-items: center;
+}
