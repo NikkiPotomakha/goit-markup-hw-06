@@ -71,7 +71,8 @@ img {
 /* common style */
 
 .container {
-  max-width: 320px;
+  min-width: 320px;
+  max-width: 428px;
   padding: 0 16px;
   margin: 0 auto;
 }
