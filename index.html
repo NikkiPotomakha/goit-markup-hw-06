@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
     <link
       rel="stylesheet"
@@ -15,25 +16,14 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body class="body">
+  <body>
     <header class="header">
       <div class="header-container container">
         <nav class="nav">
           <a class="web-logo link" href="./index.html"
             >Web<span class="studio link">Studio</span></a
-          ><button class="menu-toggle js-open-menu"
-             aria-expanded="false"
-             aria-controls="mobile-menu" >
-             <svg class="mobile-menu-icon"
-             width="32"
-             height="22"
-               fill="currentColor"
-               viewBox="0 0 20 20"
-               xmlns="http://www.w3.org/2000/svg">
-             <use href="./images/icons.svg#icon-menu"></use>
-            </svg>
-           </button>
-          <ul class="list">
+          >
+          <ul class="menu-list list">
             <li class="menu-item">
               <a href="./index.html" class="current nav-menu link">Studio</a>
             </li>
@@ -45,8 +35,8 @@
             </li>
           </ul>
         </nav>
-        <address class="address list">
-          <ul class="address list">
+        <address class="address">
+          <ul class="address-list list">
             <li class="address-item">
               <a class="contact-list link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -59,11 +49,24 @@
             </li>
           </ul>
         </address>
+        <button class="menu-toggle js-open-menu"
+             aria-expanded="false"
+             aria-controls="mobile-menu" >
+             <svg class="mobile-menu-icon"
+             width="32"
+             height="22"
+               fill="currentColor"
+               viewBox="0 0 20 20"
+               xmlns="http://www.w3.org/2000/svg">
+             <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+           </button>
+
       </div>
     </header>
     <main>
       <!--selection 1-->
-      <section class="dark-section">
+      <section class="dark-section section">
         <div class="container-main">
           <h1 class="ttl_one">Effective Solutions for Your Business</h1>
           <button class="button" type="button" data-modal-open>
@@ -74,7 +77,7 @@
 
       <!--section 2-->
 
-      <section class="text-section">
+      <section class="text-section section">
         <div class="container">
           <h2 class="visually-hidden">
             In the future this text will be hidden
@@ -134,7 +137,7 @@
 
       <!--section 3-->
 
-      <section class="tech-section">
+      <section class="tech-section section">
         <div class="container">
           <h2 class="tittle">What are we doing</h2>
           <ul class="tech-list list">
@@ -152,7 +155,7 @@
       </section>
       <!--section 4-->
 
-      <section class="prof-section">
+      <section class="prof-section section">
         <div class="container">
           <h2 class="tittle">Our Team</h2>
           <ul class="team-card list">
@@ -386,7 +389,7 @@
 
       <!--Customers section-->
 
-      <section class="customers-section">
+      <section class="customers-section section">
         <div class="customers-container container">
           <h2 class="tittle">Customers</h2>
           <ul class="customers-list list">
@@ -439,7 +442,7 @@
 
     <!--Footer section-->
 
-    <footer class="ftr">
+    <footer class="ftr section">
       <div class="container">
         <div class="container-box">
           <a href="./index.html" class="web link"
@@ -618,7 +621,7 @@
 </button>
 <ul class="list mobile-menu">
   <li class="mobile-menu-item">
-    <a href="./index.html" class="mobile-menu-link-f link">Studio</a>
+    <a href="./index.html" class="mobile-menu-link mobile-menu-link-f link">Studio</a>
   </li>
   <li class="mobile-menu-item">
     <a href="./portfolio.html" class="mobile-menu-link link">Portfolio</a>
