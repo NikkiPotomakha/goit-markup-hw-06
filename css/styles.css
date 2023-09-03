@@ -633,11 +633,7 @@ img {
 }
 .customers-list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  column-gap: 16px;
-  row-gap: 72px;
+  gap: 24px;
 }
 .logo-icon {
   fill: currentColor;
