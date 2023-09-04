@@ -177,7 +177,9 @@ img {
 .nav .list,
 .address .list {
   display: flex;
-  gap: 40px;
+  gap: 12px;
+  flex-direction: column;
+  font-size: 12px;
 }
 .menu-list {
   display: flex;
@@ -253,7 +255,7 @@ img {
 }
 @media screen and (max-width: 767.98px) {
   .menu-list {
-    display: none;
+    display: block;
   }
 }
 .address {
@@ -265,6 +267,9 @@ img {
 }
 .address-list {
   display: flex;
+  gap: 12px;
+  flex-direction: column;
+  font-size: 12px;
 }
 .address-item {
   gap: 40px;
@@ -280,7 +285,7 @@ img {
 }
 @media screen and (max-width: 767.98px) {
   .address {
-    display: none;
+    display: block;
   }
 }
 @media screen and (min-width: 1158px) {
@@ -554,8 +559,10 @@ img {
 }
 .team-card {
   display: flex;
-  gap: 24px;
+  gap: 72px;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .prof-name {
   color: var(--navy-blue);
@@ -905,9 +912,7 @@ img {
     width: 264px;
   }
 }
-.container-box {
-  margin-right: 120px;
-}
+
 @media screen and (min-width: 1158px) {
   .footer-social-media {
     margin-right: 80px;
