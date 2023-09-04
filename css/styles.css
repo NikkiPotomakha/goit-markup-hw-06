@@ -1121,7 +1121,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 408px;
+  width: 392px;
   min-height: 584px;
   border-radius: 4px;
   background-color: var(--daily);
@@ -1323,6 +1323,16 @@ input[type="checkbox"]:checked + .modal-form-priv .privacy-checkbox {
   .modal {
     width: calc(100% - 30px);
   }
+  .modal .backdrop {
+    width: 408px;
+    min-height: 584px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 408px;
+    min-height: 584px;
+  }
 }
 
 /* Mobile menu */
@@ -1400,6 +1410,7 @@ input[type="checkbox"]:checked + .modal-form-priv .privacy-checkbox {
   padding-top: 80px;
   justify-content: space-between;
   max-width: 428px;
+  height: 796px;
   background-color: var(--white);
 }
 
