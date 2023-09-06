@@ -417,7 +417,6 @@ img {
 }
 .ttl_one {
   margin: 0 auto 48px;
-  font-size: 56px;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
@@ -698,6 +697,7 @@ img {
   }
   .custom-list-item {
     flex-basis: calc((100% - 48px) / 3);
+    height: 88px;
   }
 }
 @media screen and (min-width: 1158px) {
@@ -925,12 +925,11 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 268px;
-  margin-bottom: 16px;
-  text-align: center;
 }
 @media screen and (min-width: 768px) {
   .text-footer {
     width: 264px;
+    text-align: center;
   }
 }
 
