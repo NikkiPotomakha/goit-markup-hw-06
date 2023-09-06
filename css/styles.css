@@ -104,7 +104,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  min-height: 70px;
+  align-items: center;
 }
 .header {
   background: var(--white);
@@ -156,7 +156,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  margin-right: 76px;
 }
 .studio {
   color: var(--navy-blue);
@@ -266,7 +265,7 @@ img {
   }
 }
 .address {
-  display: flex;
+  display: none;
   gap: 12px;
   flex-direction: column;
   font-size: 12px;
@@ -332,20 +331,20 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
 
-.ttl_one {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-  max-width: 320px;
-  margin: 0 auto 72px;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
+  .ttl_one {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    max-width: 320px;
+    font-weight: 700;
+    margin: 0 auto 72px;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+  }
 }
-
 .button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -418,6 +417,7 @@ img {
 }
 .ttl_one {
   margin: 0 auto 48px;
+  font-size: 56px;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
@@ -1409,7 +1409,6 @@ input[type="checkbox"]:checked + .modal-form-priv .privacy-checkbox {
   padding: 40px;
   padding-top: 80px;
   justify-content: space-between;
-  max-width: 428px;
   height: 796px;
   background-color: var(--white);
 }
