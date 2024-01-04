@@ -75,7 +75,17 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.section {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
 
+@media only screen and (min-width: 1158px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 .container {
   max-width: 428px;
   padding-left: 16px;
